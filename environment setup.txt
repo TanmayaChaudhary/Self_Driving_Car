@@ -1,0 +1,27 @@
+# Command for creating environment for python 3.5
+command-> conda create -n self_driving python=3.5
+                            Env_Name
+
+
+# for running the environment
+command - activate self_driving
+
+# for the installation of socket library in this env
+
+command-> pip install python-socketio 
+
+
+install all below libraries->
+conda install -c conda-forge tensorflow
+                  tool-server
+python-socketio
+eventlet,
+flask,
+opencv,
+tensorflow,
+
+
+
+After setup the server 
+inslall keras by pip install keras
+pillow
